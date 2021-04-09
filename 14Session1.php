@@ -1,9 +1,14 @@
+<html>
+<head>
+ <title>Error Handling</title>
+</head>
 <?php
 /****************************************************
 Halaman ini merupakan halaman contoh penciptaan session. Perintah session_start() harus
 ditaruh di perintah pertama tanpa spasi di depannya. Perintah session_start() harus ada pada
 setiap halaman yang berhubungan dengan session
 *****************************************************/
+//echo "Hallo...";
 session_start();
 if (isset ($_POST['Login'])) {
 $user = $_POST['user'];
