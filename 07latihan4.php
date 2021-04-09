@@ -4,14 +4,15 @@
 </HEAD>
 <BODY>
 <?php
-//$var = array(1,2,3,4,5,6,7);
-$var = "1,2,3,4";
+$var = array(1,2,3,4,5,6,7);
+//$var = "1,2,3,4";
 $scan = is_array($var);
 if ($scan == false) {
 $status = "bukan";
 } else {
 $status = "";
 }
+
 echo "\$var = array(1,2,3,4,5,6,7)";
 echo "<br>";
 echo "Variabel \$var $status merupakan array";

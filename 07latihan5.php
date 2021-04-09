@@ -13,8 +13,8 @@ echo "<br />";
 echo "Cerita Bergambar : $Komik";
 echo "<br />";
 echo "Bioskop : $Film";
-echo $program[0];
-echo $program[1];
+//echo $program[0];
+//echo $program[1];
 
 ?>
 </BODY>

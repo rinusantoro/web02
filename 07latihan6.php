@@ -5,7 +5,7 @@
 <BODY>
 <?php
 $program = array('Bobo','Doraemon','Spiderman');
-list($Majalah,$Film) = $program;
+list($Majalah,,$Film) = $program;
 echo "Jenis Buku & Hiburan :";
 echo "<br />";
 echo "Cerpen : $Majalah";
