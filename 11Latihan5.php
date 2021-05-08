@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost","root","","lat_dbase");
+$con = mysqli_connect("localhost","unpam","Unp4m@2021","lat_dbase");
 if (!$con)
 {
 die('Could not connect: ' . mysqli_error());
@@ -9,6 +9,6 @@ die('Could not connect: ' . mysqli_error());
 $hasil = mysqli_query($con,"select * from tbl_mhs");
 While($data=mysqli_fetch_row($hasil))
 {
-echo "$data[0] $data[1] $data[2]<br>";
+echo "$data[0] $data[1] $data[2] $data[3]<br>";
 }
 ?>

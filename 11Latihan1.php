@@ -2,12 +2,12 @@
 // hostname or ip of server
 $servername='localhost';
 // username and password
-$dbusername='root';
-$dbpassword='';
+$dbusername='unpam';
+$dbpassword='Unp4m@2021';
 $link=mysqli_connect ("$servername","$dbusername","$dbpassword")
-or die ( " Not able to connect to server ");
+or die ( " Tidak berhasil konek ke database ");
 if ($link)
 {
-echo "ok....koneksi berhasil";
+echo "ok....koneksi berhasil!";
 }
 ?>
