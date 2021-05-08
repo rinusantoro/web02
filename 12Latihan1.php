@@ -1,5 +1,6 @@
 <?php
-$con = mysqli_connect("localhost","root","","lat_dbase");
+$con = mysqli_connect("localhost","unpam","Unp4m@2021","lat_dbase");
+//$con = mysqli_connect("localhost","unpam","Unp4m@2021");
 if (!$con)
 {
 die('Could not connect: ' . mysqli_error());

@@ -1,5 +1,5 @@
 <?php
-$konek = mysqli_connect("localhost","root",""); //koneksi
+$konek = mysqli_connect("localhost","unpam","Unp4m@2021"); //koneksi
 mysqli_select_db($konek,"lat_dbase"); // mengaktifkan database
 //membuat tabel
 $sql = "CREATE TABLE tbl_mhs
