@@ -10,8 +10,7 @@ $_COOKIE['namalengkap'];
 } else {
 echo "<h1>Cookie 'namalengkap' TIDAK ada.</h1>";
 }
-echo "<h2>Klik <a href='15Cookie1.php'>di sini</a> untuk
-penciptaan cookies</h2>";
-echo "<h2>Klik <a href='15Cookie3.php'>di sini</a> untuk
-penghapusan cookies</h2>";
+echo "<h2>Klik <a href='15Buat_Cookie.php'>di sini</a> untuk penciptaan cookies</h2>";
+echo"<h2>Klik<a href='15Ubah_Cookie.php'>disini</a>untuk ubah cookies</h2>";
+echo "<h2>Klik <a href='15Hapus_Cookie.php'>di sini</a> untuk penghapusan cookies</h2>";
 ?>
