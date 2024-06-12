@@ -1,6 +1,8 @@
 <?php
 //memulai session
 session_start();
+//echo $_COOKIE["login"];
+
 //cek session
 if(!isset($_SESSION['login']))
 {

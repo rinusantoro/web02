@@ -5,7 +5,7 @@ session_destroy();
 if(isset($_COOKIE['login']))
 {
 $time=time();
-setcookie("login",'',$time- 3600);
+setcookie("login",'admin',$time-3600);
 }
 header('Location:./16login.php');
 exit();

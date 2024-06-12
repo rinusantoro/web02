@@ -1,13 +1,13 @@
 <?php
 //static variabel
-$user='sonasa';
-$pass=md5('sonasa');
+$user='admin';
+$pass=md5('admin');
 //memulai session
 session_start();
 //cek login
 if(isset($_COOKIE['login']))
 {
-if($_COOKIE['login']==$user)
+if($_COOKIE['login'] == $user)
 {
 //jika valid,set session login
 $_SESSION['login']=TRUE;
@@ -24,7 +24,7 @@ exit();
 </head>
 <body>
 <form action="16aksi.php" method="post">
-<p><label for="username">Username:</label><input type="text" name = "username" id="username"/></p>
+<p><label for="username">Username:</label><input type="text" name = "username" id="username" value="<?php if(isset($_COOKIE["login"])) { echo $_COOKIE["login"]; }?>"/></p>
 <p><label for="password">Password:</label><input type="password" name = "password" id="password"/></p>
 <p><label for="remember"><input type="checkbox" name="remember" value="true" id="remember"/>Remember Me</label></p>
 <p>
