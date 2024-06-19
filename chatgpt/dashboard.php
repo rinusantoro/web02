@@ -55,6 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['delete'])) {
 </head>
 <body>
     <h2>Welcome!</h2>
+    <p><a href="logout.php">Logout</a></p>
 
     <h3>Create Item</h3>
     <form method="POST" action="">
