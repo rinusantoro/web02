@@ -4,7 +4,7 @@ $servername='localhost';
 // username and password
 $dbusername='root';
 $dbpassword='';
-$link=mysql_connect ("$servername","$dbusername","$dbpassword")
+$link=mysqli_connect ("$servername","$dbusername","$dbpassword")
 or die ( " Not able to connect to server ");
 if ($link)
 {
