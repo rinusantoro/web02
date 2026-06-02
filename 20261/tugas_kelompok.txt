@@ -41,8 +41,8 @@ Kelompok 5:-> Mengembangkan Sistem HRIS Menggunakan Laravel 12H5P
 Kelompok 6:-> Mengembangkan Aplikasi Restoran berbasis QR dengan Laravel 12 + Copilot AIH5P
 31 221011450120 RIVAL ARDHITA MA`RUF v
 32 221011401568 RIZKY RAMADHAN v
-33 221011450410 WAHID HASIM v
-34 221011450052 WAHYU EKA CANDRA v (join)
+33 221011450410 WAHID HASIM v (join)
+34 221011450052 WAHYU EKA CANDRA v 
 
 Tugasnya:
 mengikuti bootcamp fullstack web developer di https://training.aratechnology.id/
