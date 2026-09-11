@@ -44,7 +44,7 @@ font-size: 25pt;
 </style>
 <body>
 <center>
-<font face="comic sans serif" size=5 color= "blue">Contoh Perhitungan dengan PHP</font>
+<font face="comic sans serif" size=5 color= "red">Contoh Perhitungan dengan PHP</font>
 <table border="1" cellspacing="0" cellpadding="3">
 <tr>
 <td colspan="4" align="center" valign="middle">
